@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 const messagesArr = ["As I see it, yes.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "It is certain.", "It is decidedly so."];
 let randomIndex = Math.floor(Math.random() * 8);
 
-rl.question("Ask the magic 8 ball your question and type shake: ", function(entry) {
+rl.question("Think of a question for the magic 8 ball and type the word shake: ", function(entry) {
     if(entry !== "shake") {
         console.log("Please type in the word shake to shake the magic 8 ball");
     } else {
@@ -18,6 +18,8 @@ rl.question("Ask the magic 8 ball your question and type shake: ", function(entr
     rl.close();
 });
 
+/* I don't really understand what this is doing - guidance says it's optional
 rl.on("close", function() {
     process.exit(0);
-});
+}); 
+*/
