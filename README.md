@@ -7,5 +7,5 @@ You need to have node installed.
 ## Usage
 ## Contributing
 ## Credits
-Credit to the creators of the physical Magic 8 Ball - invented by Albert C. Carter and Abe Bookman and manufactured by Mattel.  See https://en.wikipedia.org/wiki/Magic_8-Ball
+Credit goes to the creators of the physical Magic 8 Ball which inspired this simple app. The Magic 8 Ball was invented by Albert C. Carter and Abe Bookman and manufactured by Mattel.  See https://en.wikipedia.org/wiki/Magic_8-Ball
 ## License
