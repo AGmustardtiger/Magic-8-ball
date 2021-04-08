@@ -6,8 +6,8 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const messagesArr = ["A", "B", "C", "d", "e", "f"];
-let randomIndex = Math.floor(Math.random() * 4);
+const messagesArr = ["As I see it, yes.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "It is certain.", "It is decidedly so."];
+let randomIndex = Math.floor(Math.random() * 8);
 
 rl.question("Ask the magic 8 ball your question and type shake: ", function(entry) {
     if(entry !== "shake") {
