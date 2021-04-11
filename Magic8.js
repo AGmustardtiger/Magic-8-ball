@@ -7,7 +7,9 @@ const rl = readline.createInterface({
 });
 
 const messagesArr = ["As I see it, yes.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "It is certain.", "It is decidedly so."];
+const coloursArr = ["blue", "green", "pink", "orange"];
 let randomIndex = Math.floor(Math.random() * 8);
+let ranndomIndex2 = Math.floor(Math.random() * 4);
 
 rl.question("Think of a question for the magic 8 ball and type the word shake: ", function(entry) {
     if(entry !== "shake") {
