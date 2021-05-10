@@ -1,6 +1,7 @@
 # Magic-8-ball project
 ## Description
 This is a small JavaScript project creating a console app that simulates the classic Magic 8 Ball.
+I have started to add a front end using HTML & CSS.
 ## Table of Contents
 ## Installation
 You need to have node installed.
