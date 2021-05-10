@@ -3,7 +3,8 @@
     border-radius: 50%;
     height: 500px;
     width: 500px;
-    margin-left: 50px;
+    margin: 50px;
+    position: relative;
 }
 
 @keyframes shake {
@@ -22,12 +23,14 @@
 
 .ball:hover {
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
 }
 
 .message-container {
     background-color: cadetblue;
+    position: absolute;
     height: 200px;
     width: 200px;
-    margin: 150px;
+    top: 100px;
+    left: 100px;
 }
