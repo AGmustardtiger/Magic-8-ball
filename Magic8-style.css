@@ -1,0 +1,13 @@
+.ball {
+    background-color: black;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.message-container {
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
