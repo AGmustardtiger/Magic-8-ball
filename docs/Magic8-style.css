@@ -22,7 +22,7 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.ball:hover {
+.ball:hover, .ball:active {
     animation: shake 0.5s;
     animation-iteration-count: 5;
 }
